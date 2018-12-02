@@ -11,6 +11,6 @@ It is a simple Team work on Laravel
 ---
 
 ### Installation
-1) Install composer<br>
-2) Update composer<br>
+1) composer install <br>
+2) composer update<br>
 3) DONE!

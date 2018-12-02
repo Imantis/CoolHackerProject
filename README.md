@@ -1,7 +1,7 @@
 # CoolHackerProject
-Team work /n
-PHP 7 >= /n
-Wamp \\ Open Server /n
-Install composer /n
-Update composer/n
+Team work <br>
+PHP >= 7  <br>
+Wamp \\ Open Server <br>
+Install composer<br>
+Update composer<br>
 DONE!

@@ -17,6 +17,6 @@ It is a simple Team work on Laravel
 ---
 
 ### Admin panel
-http://yourdomain.com/admin
-Admin: mrimant@gmail.com
+http://yourdomain.com/admin<br>
+Admin: mrimant@gmail.com<br>
 Password: option123

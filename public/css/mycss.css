@@ -92,3 +92,16 @@
 		line-height: 1.8;
 	}
 }
+
+
+.catalog-list .product{
+    border: 0px solid #B0A060 !important;
+}
+
+.option-relevance {
+    color: black !important;
+}
+
+ol li a{
+    color: black !important;
+}

@@ -10,7 +10,7 @@
 	
 	<link type="text/css" rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:400,300'>
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link type="text/css" rel="stylesheet" href='css/mycss.css'>
+	<link type="text/css" rel="stylesheet" href='<?= url('/'); ?>/css/mycss.css'>
 @yield('aimeos_styles')
 </head>
 <body>

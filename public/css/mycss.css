@@ -1,0 +1,19 @@
+.navbar{
+    min-height: 450px !important;
+    background: url('https://westendwineboulder.com/wp-content/uploads/2016/12/West-End-Wine-Shop-2016-17.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar-brand, nav li a{
+    color: white !important;
+}
+
+.nav-text{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 10%;
+}

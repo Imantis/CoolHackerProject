@@ -7,8 +7,10 @@
 @yield('aimeos_header')
 	<title>Aimeos on Laravel</title>
 
+	
 	<link type="text/css" rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:400,300'>
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href='css/mycss.css'>
 @yield('aimeos_styles')
 </head>
 <body>
@@ -21,7 +23,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Laravel</a>
+				<a class="navbar-brand" href="#">Online shop</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -33,6 +35,11 @@
 @yield('aimeos_head')
 				</div>
 			</div>
+
+			<div class="nav-text">
+				Online shop
+			</div>
+
 		</div>
 	</nav>
     <div class="col-xs-12">

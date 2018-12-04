@@ -7,8 +7,10 @@
 @yield('aimeos_header')
 	<title>Aimeos on Laravel</title>
 
+	
 	<link type="text/css" rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:400,300'>
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href='<?= url('/'); ?>/css/mycss.css'>
 @yield('aimeos_styles')
 </head>
 <body>
@@ -21,7 +23,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Laravel</a>
+				<a class="navbar-brand" href="#">Online shop</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -33,6 +35,11 @@
 @yield('aimeos_head')
 				</div>
 			</div>
+
+			<div class="nav-text">
+				Online shop
+			</div>
+
 		</div>
 	</nav>
     <div class="col-xs-12">
@@ -42,6 +49,38 @@
 @yield('aimeos_aside')
 @yield('content')
 	</div>
+<div style="clear:both;"></div>
+<footer class="footer-distributed">
+
+<div class="footer-right">
+
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	<a href="#"><i class="fa fa-linkedin"></i></a>
+	<a href="#"><i class="fa fa-github"></i></a>
+
+</div>
+
+<div class="footer-left">
+
+	<p class="footer-links">
+		<a href="#">Home</a>
+		·
+		<a href="#">Blog</a>
+		·
+		<a href="#">Pricing</a>
+		·
+		<a href="#">About</a>
+		·
+		<a href="#">Faq</a>
+		·
+		<a href="#">Contact</a>
+	</p>
+
+	<p>Company Name &copy; 2015</p>
+</div>
+
+</footer>
 
 	<!-- Scripts -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>

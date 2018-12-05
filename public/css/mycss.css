@@ -272,3 +272,86 @@ SOCIAL BUTTON STYLE
 	background: #cae3ee;
 	color: white;
 }
+
+/* ==========================================================================
+ABOUT PAGE
+========================================================================== */
+#about-page .container-fluid {
+	padding: 0 !important;
+	height: 300px;
+	margin-top: 20px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-page {
+	width: 100vw;
+	overflow: hidden;
+}
+
+#about-page .container-fluid#gucci-image {
+	margin-bottom: 20px;
+	background-image:
+	    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	    url('https://hips.hearstapps.com/esquireuk.cdnds.net/17/32/4000x2000/landscape-1502190153-gucci.jpg?resize=1200:*');
+  	background-repeat: no-repeat, no-repeat;
+  	background-position:
+	    center,
+	    center;
+ 	background-size:
+	    cover,
+	    cover;
+}
+
+#about-page .container-fluid#gucci-shop-image {
+	background-image:
+	    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	    url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Np7yaOOPl/gucci-store-in-kuala-lumpur-shopping-mall-suria-in-petronas-towers-malaysia_hmeiz-mc_thumbnail-full01.png');
+  	background-repeat: no-repeat, no-repeat;
+  	background-position:
+	    center,
+	    center;
+ 	background-size:
+	    cover,
+	    cover;
+}
+
+#about-page .container-fluid#gucci-shop-image .contact-btn {
+	color: #fff;
+	background-color: #B0A060;
+	padding: 1em;
+	text-transform: uppercase;
+	transition: 0.5s;
+	font-weight: bold;
+}
+
+#about-page .container-fluid#gucci-shop-image .contact-btn:hover {
+	background-color: #897b43;
+	text-decoration: none;
+}
+
+#about-page p {
+	text-align: justify;
+}
+
+#about-page img {
+	max-height: 300px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#about-page #first-text-area img {
+	margin-right: 10px;
+}
+
+#about-page #second-text-area img {
+	margin-left: 10px;
+	float: right;
+}
+
+#about-page h2 {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}

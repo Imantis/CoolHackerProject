@@ -49,6 +49,14 @@ LINKS IN MENU
 /* ==========================================================================
 TEXT IN HEADER
 ========================================================================== */
+.gussi h1{
+	font-family: Raleway; 
+	font-size: 20px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 15.4px;
+}
 .nav-text{
     color: #fff;
     font-size: 70px;
@@ -102,17 +110,17 @@ FOOTER
 
 .footer-distributed .footer-right a{
 	display: inline-block;
-	width: 35px;
-	height: 35px;
-	background-color:  #33383b;
-	border-radius: 2px;
+	width: 30px;
+	height: 30px;
+	/*background-color:  #33383b;*/
+	/*border-radius: 2px;*/
 
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
 
-	margin-left: 3px;
+	/*margin-left: 3px;*/
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -218,4 +226,132 @@ LINKS IN MENU
 
 .catalog-filter-search .standardbutton:hover {
 	background-color: #897b43; 
+}
+
+/* ==========================================================================
+SOCIAL BUTTON STYLE
+========================================================================== */
+/* Style all font awesome icons */
+.fa {
+	padding: 5px;
+	font-size: 30px;
+	width: 30px;
+	height: 30px;
+	/*border-radius: 50%;*/
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+/* LinkedIN */
+.fa-linkedin {
+	background: #50eede;
+	color: white;
+}
+
+/* Github */
+.fa-github {
+	background: #cae3ee;
+	color: white;
+}
+
+/* ==========================================================================
+ABOUT PAGE
+========================================================================== */
+#about-page .container-fluid {
+	padding: 0 !important;
+	height: 300px;
+	margin-top: 20px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-page {
+	width: 100vw;
+	overflow: hidden;
+}
+
+#about-page .container-fluid#gucci-image {
+	margin-bottom: 20px;
+	background-image:
+	    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	    url('https://hips.hearstapps.com/esquireuk.cdnds.net/17/32/4000x2000/landscape-1502190153-gucci.jpg?resize=1200:*');
+  	background-repeat: no-repeat, no-repeat;
+  	background-position:
+	    center,
+	    center;
+ 	background-size:
+	    cover,
+	    cover;
+}
+
+#about-page .container-fluid#gucci-shop-image {
+	background-image:
+	    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	    url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Np7yaOOPl/gucci-store-in-kuala-lumpur-shopping-mall-suria-in-petronas-towers-malaysia_hmeiz-mc_thumbnail-full01.png');
+  	background-repeat: no-repeat, no-repeat;
+  	background-position:
+	    center,
+	    center;
+ 	background-size:
+	    cover,
+	    cover;
+}
+
+#about-page .container-fluid#gucci-shop-image .contact-btn {
+	color: #fff;
+	background-color: #B0A060;
+	padding: 1em;
+	text-transform: uppercase;
+	transition: 0.5s;
+	font-weight: bold;
+}
+
+#about-page .container-fluid#gucci-shop-image .contact-btn:hover {
+	background-color: #897b43;
+	text-decoration: none;
+}
+
+#about-page p {
+	text-align: justify;
+}
+
+#about-page img {
+	max-height: 300px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#about-page #first-text-area img {
+	margin-right: 10px;
+}
+
+#about-page #second-text-area img {
+	margin-left: 10px;
+	float: right;
+}
+
+#about-page h2 {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
 }

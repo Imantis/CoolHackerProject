@@ -52,7 +52,7 @@ return [
 			],
 			'common' => [
 				'content' => [
-					// 'baseurl' => '/',
+					'baseurl' => 'http://zaas-tm.id.lv/',
 				],
 				'template' => [
 					// 'baseurl' => 'packages/aimeos/shop/themes/elegance',

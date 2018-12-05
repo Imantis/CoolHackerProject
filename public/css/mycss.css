@@ -1,23 +1,64 @@
+/* ==========================================================================
+HEADER
+========================================================================== */
 .navbar{
     min-height: 450px !important;
-    background: url('https://westendwineboulder.com/wp-content/uploads/2016/12/West-End-Wine-Shop-2016-17.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background-image:
+	    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	    url('https://www.landmark.hk/en/~/media/images/landmark/shopping/shopdetail/slider/gucci_2.jpg');
+  	background-repeat: no-repeat, no-repeat;
+  	background-position:
+	    0 0,
+	    0 0;
+ 	background-size:
+	    cover,
+	    cover;
 }
 
-.navbar-brand, nav li a{
-    color: white !important;
+/* ==========================================================================
+LOGO
+========================================================================== */
+.navbar-brand {
+	margin: 15px 15px !important;
 }
 
+.navbar-brand img{;
+    height: 100%;
+}
+
+/* ==========================================================================
+LINKS IN MENU
+========================================================================== */
+.nav.navbar-nav {
+	margin-left: 10px;
+}
+
+.navbar-nav > li > a {
+	padding: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.1em;
+	transition: 0.5s color;
+	color: #fff !important;
+}
+
+.navbar-nav > li > a:hover {
+	color: #B0A060 !important;
+}
+
+/* ==========================================================================
+TEXT IN HEADER
+========================================================================== */
 .nav-text{
-    color: white;
+    color: #fff;
     font-size: 70px;
     text-align: center;
     margin-top: 10%;
 }
 
+/* ==========================================================================
+FOOTER
+========================================================================== */
 .footer-distributed{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -93,9 +134,17 @@
 	}
 }
 
-
+/* ==========================================================================
+CATALOG AND PRODUCT
+========================================================================== */
 .catalog-list .product{
     border: 0px solid #B0A060 !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.catalog-list .product:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;
 }
 
 .option-relevance {
@@ -104,4 +153,69 @@
 
 ol li a{
     color: black !important;
+}
+
+
+.product .text-list h2 {
+	font-size: 1.2em !important;
+	font-weight: bold !important;
+}
+
+.product .text-list .text-item {
+	font-size: 1em !important;
+}
+
+.product .offer {
+	font-size: 1.3em !important;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #B0A060 !important;
+	margin: 0 !important;
+	max-width: 100% !important;
+}
+
+.product .offer span.value,
+.product .offer span.rebatepercent,
+.product .offer span.rebate {
+	font-weight: bold !important;
+	color: #fff !important;
+}
+
+.product .offer span.rebatepercent,
+.product .offer span.rebate {
+	float: right;
+	height: 100%;
+}
+
+
+/* ==========================================================================
+LINKS IN MENU
+========================================================================== */
+.pagination > .sort > ul > li {
+	margin: 0.5em;
+	line-height: 3em !important;
+}
+
+.pagination > .sort > ul > li > a {
+	color: #fff !important;
+	text-decoration: none;
+	padding: 0.5em;
+	background-color: #B0A060 !important;
+}
+
+.pagination > .sort > ul > li > a:hover {
+	text-decoration: none;
+	background-color: #897b43 !important;
+}
+
+.pagination > .sort > ul > li > .active {
+	background-color: #897b43 !important; 
+}
+
+.pagination > .sort {
+	display: block !important;
+}
+
+.catalog-filter-search .standardbutton:hover {
+	background-color: #897b43; 
 }

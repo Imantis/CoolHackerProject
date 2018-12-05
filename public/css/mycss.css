@@ -102,17 +102,17 @@ FOOTER
 
 .footer-distributed .footer-right a{
 	display: inline-block;
-	width: 35px;
-	height: 35px;
-	background-color:  #33383b;
-	border-radius: 2px;
+	width: 30px;
+	height: 30px;
+	/*background-color:  #33383b;*/
+	/*border-radius: 2px;*/
 
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
 
-	margin-left: 3px;
+	/*margin-left: 3px;*/
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -218,4 +218,49 @@ LINKS IN MENU
 
 .catalog-filter-search .standardbutton:hover {
 	background-color: #897b43; 
+}
+
+/* ==========================================================================
+SOCIAL BUTTON STYLE
+========================================================================== */
+/* Style all font awesome icons */
+.fa {
+	padding: 5px;
+	font-size: 30px;
+	width: 30px;
+	height: 30px;
+	/*border-radius: 50%;*/
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+/* LinkedIN */
+.fa-linkedin {
+	background: #50eede;
+	color: white;
+}
+
+/* Github */
+.fa-github {
+	background: #cae3ee;
+	color: white;
 }

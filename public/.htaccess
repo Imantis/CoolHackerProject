@@ -24,3 +24,6 @@
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 </IfModule>
+<DirectoryMatch "/home/sites/site81/">
+    php_admin_value open_basedir "/home/sites/site81/:/tmp/:/"
+</DirectoryMatch>

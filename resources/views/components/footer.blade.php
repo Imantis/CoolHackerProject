@@ -28,7 +28,7 @@
             <a href="/contact">Contact</a>
         </p>
 
-        <p>Company Name &copy; 2015</p>
+        <p>SIA "GUSSI UN KOMPĀNIJA" &copy; 2018</p>
     </div>
 
 </footer>

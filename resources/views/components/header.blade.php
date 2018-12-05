@@ -42,7 +42,7 @@
 
         <div class="nav-text">
             <h1>25 ways to GUSSI</h1>
-            <img src="https://image.flaticon.com/icons/svg/133/133463.svg" widht="100px" height="100px">
+            <img src="https://image.flaticon.com/icons/svg/235/235406.svg" widht="100px" height="100px">
         </div>
 
     </div>

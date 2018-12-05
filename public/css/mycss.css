@@ -49,6 +49,14 @@ LINKS IN MENU
 /* ==========================================================================
 TEXT IN HEADER
 ========================================================================== */
+.gussi h1{
+	font-family: Raleway; 
+	font-size: 20px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 15.4px;
+}
 .nav-text{
     color: #fff;
     font-size: 70px;

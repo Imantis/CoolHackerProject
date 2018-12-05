@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @yield('aimeos_header')
-<title>Aimeos on Laravel</title>
-
 
 <link type="text/css" rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:400,300'>
 <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link type="text/css" rel="stylesheet" href='<?= url('/'); ?>/css/mycss.css'>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
 @yield('aimeos_styles')
 </head>
 <body>
@@ -40,7 +39,7 @@
             </div>
         </div>
 
-        <div class="nav-text">
+        <div class="gussi nav-text">
             <h1>25 ways to GUSSI</h1>
             <img src="https://image.flaticon.com/icons/svg/235/235406.svg" widht="100px" height="100px">
         </div>

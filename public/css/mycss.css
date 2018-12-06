@@ -355,3 +355,8 @@ ABOUT PAGE
 	padding-left: 10px !important;
 	padding-right: 10px !important;
 }
+
+body > div.col-xs-12 > section.aimeos.catalog-list > div.catalog-list-items > ul{
+padding: 0;
+}
+
